@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: techdrill-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: techdrill_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - techdrill-network
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: techdrill-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+    networks:
+      - techdrill-network
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: techdrill-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/techdrill_db
+      - REDIS_URL=redis://redis:6379
+      - PORT=5000
+    env_file:
+      - ./server/.env
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - techdrill-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: techdrill-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - techdrill-network
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  redisdata:
+
+networks:
+  techdrill-network:
+    driver: bridge

@@ -1,0 +1,894 @@
+2026-04-09 16:26:30 [info]: ✅ Database connection successful
+2026-04-09 16:29:22 [info]: ✅ Database connection successful
+2026-04-09 16:40:17 [info]: ✅ Database connection successful
+2026-04-09 16:40:17 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 16:48:36 [error]: Error: Invalid or expired OTP
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:87:25
+2026-04-09 16:50:40 [error]: Error: Validation failed
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/middlewares/validate.js:13:17
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/utils/catchAsync.js:6:19
+    at Layer.handleRequest (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/lib/layer.js:152:17)
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/index.js:295:15
+    at processParams (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/index.js:582:12)
+    at next (/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/node_modules/router/index.js:291:5)
+2026-04-09 16:50:55 [error]: Error: Incorrect email or password
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:114:29
+2026-04-09 16:52:58 [error]: Error: Incorrect email or password
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:114:29
+2026-04-09 16:53:11 [error]: Error: Incorrect email or password
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:114:29
+2026-04-09 16:53:22 [error]: Error: Incorrect email or password
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:114:29
+2026-04-09 16:58:21 [info]: ✅ Database connection successful
+2026-04-09 17:00:20 [info]: ✅ Database connection successful
+2026-04-09 17:00:20 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 17:01:08 [error]: Error: Incorrect password
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:69:17
+2026-04-09 17:01:08 [error]: Error: No account found with this email address
+    at /home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:63:17
+2026-04-09 17:02:54 [info]: ✅ Database connection successful
+2026-04-09 17:03:25 [info]: ✅ Database connection successful
+2026-04-09 17:03:25 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 17:12:08 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-09 17:12:46 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:46 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:46 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:46 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:47 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:47 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:47 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:47 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:47 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 17:12:47 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-09 18:02:51 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:02:51 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:02:51 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:02:51 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:02:51 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 18:02:51 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-09 18:02:51 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-09 18:02:51 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:02:51 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:03:35 [info]: ✅ Database connection successful
+2026-04-09 18:03:37 [info]: ✅ Database connection successful
+2026-04-09 18:05:09 [error]: 403 — You do not have permission to perform this action [POST /api/users/addresses]
+2026-04-09 18:07:32 [error]: 404 — Can't find /api/users/addresses on this server! [POST /api/users/addresses]
+2026-04-09 18:07:37 [error]: 404 — Can't find /api/users/addresses on this server! [POST /api/users/addresses]
+2026-04-09 18:07:48 [info]: ✅ Database connection successful
+2026-04-09 18:07:48 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 18:07:50 [error]: 500 — 
+Invalid `prisma.address.create()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/user.controller.js:72:40
+
+  69 exports.addAddress = catchAsync(async (req, res, next) => {
+  70   const { label, line1, line2, city, state, pincode, phone } = req.body;
+  71   if (!line1 || !city || !state || !pincode || !phone) return next(new AppError('All address fields are required', 400));
+→ 72   const address = await prisma.address.create({
+         data: {
+           userId: "12cec7e8-ff54-4c4d-8ee8-3962660e0dfe",
+           label: "Home",
+           ~~~~~
+           line1: "5455454455",
+           line2: "54",
+           city: "45545",
+           state: "Maharashtra",
+           pincode: "544544",
+           phone: "7410852545",
+       ?   id?: String,
+       ?   country?: String,
+       ?   isDefault?: Boolean,
+       ?   createdAt?: DateTime,
+       ?   orders?: OrderUncheckedCreateNestedManyWithoutAddressInput
+         }
+       })
+
+Unknown argument `label`. Did you mean `line1`? Available options are marked with ?. [POST /api/users/addresses]
+2026-04-09 18:07:52 [error]: 500 — 
+Invalid `prisma.address.create()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/user.controller.js:72:40
+
+  69 exports.addAddress = catchAsync(async (req, res, next) => {
+  70   const { label, line1, line2, city, state, pincode, phone } = req.body;
+  71   if (!line1 || !city || !state || !pincode || !phone) return next(new AppError('All address fields are required', 400));
+→ 72   const address = await prisma.address.create({
+         data: {
+           userId: "cca729bb-9ded-4251-b2ca-fe2bb93f7810",
+           label: "Home",
+           ~~~~~
+           line1: "123 MG Road",
+           line2: "Near City Mall",
+           city: "Pune",
+           state: "Maharashtra",
+           pincode: "411001",
+           phone: "9876543210",
+       ?   id?: String,
+       ?   country?: String,
+       ?   isDefault?: Boolean,
+       ?   createdAt?: DateTime,
+       ?   orders?: OrderUncheckedCreateNestedManyWithoutAddressInput
+         }
+       })
+
+Unknown argument `label`. Did you mean `line1`? Available options are marked with ?. [POST /api/users/addresses]
+2026-04-09 18:08:15 [error]: 500 — 
+Invalid `prisma.address.create()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/user.controller.js:72:40
+
+  69 exports.addAddress = catchAsync(async (req, res, next) => {
+  70   const { label, line1, line2, city, state, pincode, phone } = req.body;
+  71   if (!line1 || !city || !state || !pincode || !phone) return next(new AppError('All address fields are required', 400));
+→ 72   const address = await prisma.address.create({
+         data: {
+           userId: "12cec7e8-ff54-4c4d-8ee8-3962660e0dfe",
+           label: "Home",
+           ~~~~~
+           line1: "gcsxf",
+           line2: "",
+           city: "Pune",
+           state: "Maharashtra",
+           pincode: "544544",
+           phone: "7410852963",
+       ?   id?: String,
+       ?   country?: String,
+       ?   isDefault?: Boolean,
+       ?   createdAt?: DateTime,
+       ?   orders?: OrderUncheckedCreateNestedManyWithoutAddressInput
+         }
+       })
+
+Unknown argument `label`. Did you mean `line1`? Available options are marked with ?. [POST /api/users/addresses]
+2026-04-09 18:09:32 [error]: 500 — 
+Invalid `prisma.address.create()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/user.controller.js:72:40
+
+  69 exports.addAddress = catchAsync(async (req, res, next) => {
+  70   const { label, line1, line2, city, state, pincode, phone } = req.body;
+  71   if (!line1 || !city || !state || !pincode || !phone) return next(new AppError('All address fields are required', 400));
+→ 72   const address = await prisma.address.create({
+         data: {
+           userId: "12cec7e8-ff54-4c4d-8ee8-3962660e0dfe",
+           label: "Home",
+           ~~~~~
+           line1: "gcsxf",
+           line2: "",
+           city: "Pune",
+           state: "Maharashtra",
+           pincode: "544544",
+           phone: "7410852963",
+       ?   id?: String,
+       ?   country?: String,
+       ?   isDefault?: Boolean,
+       ?   createdAt?: DateTime,
+       ?   orders?: OrderUncheckedCreateNestedManyWithoutAddressInput
+         }
+       })
+
+Unknown argument `label`. Did you mean `line1`? Available options are marked with ?. [POST /api/users/addresses]
+2026-04-09 18:09:51 [info]: ✅ Database connection successful
+2026-04-09 18:09:51 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 18:10:06 [error]: 500 — Razorpay keys are not configured in .env [POST /api/payments/create-razorpay-order]
+2026-04-09 18:16:32 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:16:32 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 18:16:33 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 19:34:37 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-09 19:53:06 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 20:04:11 [info]: ✅ Database connection successful
+2026-04-09 20:04:11 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 20:05:46 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-09 20:06:18 [error]: 500 — Razorpay keys are not configured in .env [POST /api/payments/create-razorpay-order]
+2026-04-09 20:19:32 [info]: ✅ Database connection successful
+2026-04-09 20:24:39 [error]: 500 — jwt expired [POST /api/users/cart]
+2026-04-09 20:42:23 [info]: ✅ Database connection successful
+2026-04-09 20:42:23 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 20:42:52 [error]: 500 — jwt expired [POST /api/ai/chat]
+2026-04-09 20:42:52 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-09 21:05:45 [error]: UNCAUGHT EXCEPTION! 💥 Shutting down...
+2026-04-09 21:07:23 [info]: ✅ Database connection successful
+2026-04-09 21:07:23 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 21:08:06 [error]: 500 — Razorpay keys are not configured in .env [POST /api/payments/create-razorpay-order]
+2026-04-09 22:46:02 [info]: ✅ Database connection successful
+2026-04-09 22:46:02 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 22:47:07 [error]: 400 — undefined [POST /api/payments/create-razorpay-order]
+2026-04-09 22:47:17 [error]: 400 — Your cart is empty [POST /api/orders]
+2026-04-09 22:47:41 [info]: ✅ Database connection successful
+2026-04-09 22:47:41 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 22:47:47 [error]: 400 — undefined [POST /api/payments/create-razorpay-order]
+2026-04-09 22:50:29 [info]: ✅ Database connection successful
+2026-04-09 22:50:29 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 22:50:35 [error]: 400 — undefined [POST /api/payments/create-razorpay-order]
+2026-04-09 22:51:42 [error]: 400 — undefined [POST /api/payments/create-razorpay-order]
+2026-04-09 22:52:19 [info]: ✅ Database connection successful
+2026-04-09 22:52:19 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 22:52:24 [error]: 400 — undefined [POST /api/payments/create-razorpay-order]
+2026-04-09 22:53:39 [error]: 400 — Your cart is empty [POST /api/orders]
+2026-04-09 22:54:02 [error]: 400 — undefined [POST /api/payments/create-razorpay-order]
+2026-04-09 22:54:19 [info]: ✅ Database connection successful
+2026-04-09 22:54:19 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 22:57:57 [error]: 400 — Validation failed [PUT /api/products/4078fb68-c80e-40c6-b57a-e7f223a55abe]
+2026-04-09 22:58:04 [error]: 400 — Validation failed [PUT /api/products/4078fb68-c80e-40c6-b57a-e7f223a55abe]
+2026-04-09 22:58:11 [error]: 400 — Validation failed [PUT /api/products/4078fb68-c80e-40c6-b57a-e7f223a55abe]
+2026-04-09 23:13:31 [error]: 500 — jwt expired [GET /api/orders/my-orders?limit=30]
+2026-04-09 23:13:31 [error]: 500 — jwt expired [GET /api/orders/my-orders?limit=30]
+2026-04-09 23:13:32 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 23:15:01 [error]: 403 — You do not have permission to perform this action [GET /api/reports/dashboard-stats]
+2026-04-09 23:15:01 [error]: 403 — You do not have permission to perform this action [GET /api/reports/sales-report]
+2026-04-09 23:15:01 [error]: 403 — You do not have permission to perform this action [GET /api/reports/dashboard-stats]
+2026-04-09 23:15:01 [error]: 403 — You do not have permission to perform this action [GET /api/reports/sales-report]
+2026-04-09 23:16:06 [error]: 403 — You do not have permission to perform this action [GET /api/reports/dashboard-stats]
+2026-04-09 23:16:06 [error]: 403 — You do not have permission to perform this action [GET /api/reports/sales-report]
+2026-04-09 23:17:56 [error]: 403 — You do not have permission to perform this action [GET /api/reports/dashboard-stats]
+2026-04-09 23:17:56 [error]: 403 — You do not have permission to perform this action [GET /api/reports/sales-report]
+2026-04-09 23:25:59 [info]: ✅ Database connection successful
+2026-04-09 23:25:59 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 23:26:03 [error]: 403 — Invalid admin invite code [POST /api/auth/register-admin]
+2026-04-09 23:26:22 [info]: ✅ Database connection successful
+2026-04-09 23:26:45 [info]: ✅ Database connection successful
+2026-04-09 23:26:58 [info]: ✅ Database connection successful
+2026-04-09 23:30:53 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:30:53 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:30:53 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 23:31:25 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:31:25 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:31:25 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 23:33:11 [error]: 400 — Invalid status [PATCH /api/orders/46e724a5-e371-4d76-83fc-5493da9521d5/status]
+2026-04-09 23:50:02 [info]: ✅ Database connection successful
+2026-04-09 23:50:02 [info]: ✅ Server running on port 5000 in development mode
+2026-04-09 23:50:07 [error]: 403 — Invalid admin invite code [POST /api/auth/register-admin]
+2026-04-09 23:50:07 [error]: 403 — You do not have permission to perform this action [GET /api/orders]
+2026-04-09 23:51:16 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:51:16 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:51:16 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 23:51:16 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:51:16 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-09 23:51:16 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-09 23:52:36 [error]: 400 — Invalid status [PATCH /api/orders/5d9e233f-e9f1-459d-b23b-7435ea255d5a/status]
+2026-04-09 23:53:08 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/dashboard-stats]
+2026-04-09 23:53:08 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/sales-report]
+2026-04-09 23:53:08 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/sales-report]
+2026-04-09 23:53:08 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/dashboard-stats]
+2026-04-09 23:53:11 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-09 23:53:15 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-09 23:59:02 [info]: ✅ Database connection successful
+2026-04-09 23:59:02 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 00:00:26 [error]: 403 — You can only delete your own products [DELETE /api/products/7236ea69-0ab8-4351-a442-a49af8fa34c0]
+2026-04-10 00:00:26 [error]: 403 — You can only edit your own products [PUT /api/products/7236ea69-0ab8-4351-a442-a49af8fa34c0]
+2026-04-10 00:00:26 [error]: 403 — You do not have permission to perform this action [GET /api/orders]
+2026-04-10 00:00:27 [error]: 403 — Invalid admin invite code [POST /api/auth/register-admin]
+2026-04-10 00:01:36 [error]: 500 — 
+Invalid `prisma.order.findMany()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/order.controller.js:96:18
+
+  93   ...(req.query.status ? { status: req.query.status } : {}),
+  94 };
+  95 const [orders, total] = await Promise.all([
+→ 96   prisma.order.findMany({
+         where: {
+           NOT: {
+             status: "PENDING_PAYMENT"
+           },
+           status: "CONFIRMED"
+                   ~~~~~~~~~~~
+         },
+         orderBy: {
+           createdAt: "desc"
+         },
+         skip: 0,
+         take: 12,
+         include: {
+           user: {
+             select: {
+               name: true,
+               email: true
+             }
+           },
+           items: true
+         }
+       })
+
+Invalid value for argument `status`. Expected OrderStatus. [GET /api/orders?page=1&status=CONFIRMED&limit=12]
+2026-04-10 00:01:46 [error]: 400 — Invalid status [PATCH /api/orders/701c14f7-3e8a-4e26-8541-af664a5cd028/status]
+2026-04-10 00:01:49 [error]: 400 — Invalid status [PATCH /api/orders/701c14f7-3e8a-4e26-8541-af664a5cd028/status]
+2026-04-10 00:01:55 [error]: 500 — 
+Invalid `prisma.order.count()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/order.controller.js:100:18
+
+   97   where, orderBy: { createdAt: 'desc' }, skip, take,
+   98   include: { user: { select: { name: true, email: true } }, items: true }
+   99 }),
+→ 100 prisma.order.count({
+        select: {
+          _count: {
+            select: {
+              _all: true
+            }
+          }
+        },
+        where: {
+          NOT: {
+            status: "PENDING_PAYMENT"
+          },
+          status: "CONFIRMED"
+                  ~~~~~~~~~~~
+        }
+      })
+
+Invalid value for argument `status`. Expected OrderStatus. [GET /api/orders?page=1&status=CONFIRMED&limit=12]
+2026-04-10 00:01:55 [error]: 500 — 
+Invalid `prisma.order.findMany()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/order.controller.js:96:18
+
+  93   ...(req.query.status ? { status: req.query.status } : {}),
+  94 };
+  95 const [orders, total] = await Promise.all([
+→ 96   prisma.order.findMany({
+         where: {
+           NOT: {
+             status: "PENDING_PAYMENT"
+           },
+           status: "SHIPPED"
+                   ~~~~~~~~~
+         },
+         orderBy: {
+           createdAt: "desc"
+         },
+         skip: 0,
+         take: 12,
+         include: {
+           user: {
+             select: {
+               name: true,
+               email: true
+             }
+           },
+           items: true
+         }
+       })
+
+Invalid value for argument `status`. Expected OrderStatus. [GET /api/orders?page=1&status=SHIPPED&limit=12]
+2026-04-10 00:03:31 [error]: 403 — You can only delete your own products [DELETE /api/products/069906a6-6664-41b8-810f-529d203a0823]
+2026-04-10 00:03:31 [error]: 403 — You can only edit your own products [PUT /api/products/069906a6-6664-41b8-810f-529d203a0823]
+2026-04-10 00:03:32 [error]: 403 — Invalid admin invite code [POST /api/auth/register-admin]
+2026-04-10 00:12:04 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 00:12:04 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 00:12:04 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 00:12:12 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 00:12:19 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-10 00:12:27 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 00:15:29 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-10 00:19:22 [info]: ✅ Database connection successful
+2026-04-10 00:19:22 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 00:21:51 [error]: 500 — 
+Invalid `prisma.product.create()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/product.controller.js:16:40
+
+  13 const category = await prisma.category.findUnique({ where: { id: rest.categoryId } });
+  14 if (!category) return next(new AppError('Category not found', 404));
+  15 
+→ 16 const product = await prisma.product.create(
+Unique constraint failed on the fields: (`slug`) [POST /api/products]
+2026-04-10 00:22:05 [error]: 500 — 
+Invalid `prisma.product.create()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/product.controller.js:16:40
+
+  13 const category = await prisma.category.findUnique({ where: { id: rest.categoryId } });
+  14 if (!category) return next(new AppError('Category not found', 404));
+  15 
+→ 16 const product = await prisma.product.create(
+Unique constraint failed on the fields: (`slug`) [POST /api/products]
+2026-04-10 00:23:43 [info]: ✅ Database connection successful
+2026-04-10 00:23:43 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 00:33:17 [error]: 500 — jwt expired [GET /api/products/admin/my?page=1&limit=10]
+2026-04-10 00:43:30 [info]: ✅ Database connection successful
+2026-04-10 00:43:30 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 01:15:13 [error]: 500 — jwt expired [GET /api/reports/dashboard-stats]
+2026-04-10 01:15:13 [error]: 500 — jwt expired [GET /api/reports/sales-report]
+2026-04-10 01:15:13 [error]: 500 — jwt expired [GET /api/reports/dashboard-stats]
+2026-04-10 01:15:14 [error]: 500 — jwt expired [GET /api/reports/sales-report]
+2026-04-10 01:15:14 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 01:15:14 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 01:15:14 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 01:18:11 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 01:18:11 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 01:18:11 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 01:18:11 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 01:18:31 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 06:44:33 [error]: 500 — jwt expired [GET /api/orders/my-orders?limit=30]
+2026-04-10 06:44:33 [error]: 500 — jwt expired [GET /api/orders/my-orders?limit=30]
+2026-04-10 06:44:33 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 06:48:17 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 06:48:17 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 06:48:17 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 06:48:21 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 06:49:58 [error]: 403 — You do not have permission to perform this action [GET /api/orders?page=1&limit=12]
+2026-04-10 06:49:58 [error]: 403 — You do not have permission to perform this action [GET /api/orders?page=1&limit=12]
+2026-04-10 06:50:00 [error]: 403 — You do not have permission to perform this action [GET /api/users?page=1&limit=12]
+2026-04-10 06:50:00 [error]: 403 — You do not have permission to perform this action [GET /api/users?page=1&limit=12]
+2026-04-10 06:58:31 [error]: 404 — User not found [GET /api/users/admins?page=1&limit=12]
+2026-04-10 06:58:31 [error]: 404 — User not found [GET /api/users/admins?page=1&limit=12]
+2026-04-10 07:00:20 [error]: 404 — User not found [GET /api/users/admins?page=1&limit=12]
+2026-04-10 07:00:20 [error]: 404 — User not found [GET /api/users/admins?page=1&limit=12]
+2026-04-10 07:03:15 [error]: 404 — User not found [GET /api/users/admins?page=1&limit=12]
+2026-04-10 07:03:15 [error]: 404 — User not found [GET /api/users/admins?page=1&limit=12]
+2026-04-10 07:10:50 [error]: 500 — jwt expired [GET /api/orders/my-orders?limit=30]
+2026-04-10 07:10:50 [error]: 500 — jwt expired [GET /api/orders/my-orders?limit=30]
+2026-04-10 07:10:50 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:20 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:20 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:20 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:20 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:20 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 07:26:21 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 07:26:22 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:26:22 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/orders/my-orders?limit=30]
+2026-04-10 07:26:22 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/orders/my-orders?limit=30]
+2026-04-10 07:29:38 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-10 07:29:55 [error]: 404 — No account found with this email address [POST /api/auth/login]
+2026-04-10 07:32:47 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 07:33:52 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 07:33:53 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 07:33:54 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 07:33:54 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 07:34:35 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/admins?page=1&limit=12]
+2026-04-10 07:34:35 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/admins?page=1&limit=12]
+2026-04-10 09:26:20 [error]: 500 — jwt expired [POST /api/users/cart]
+2026-04-10 09:28:16 [error]: 400 — Invalid status [PATCH /api/orders/5d9e233f-e9f1-459d-b23b-7435ea255d5a/status]
+2026-04-10 09:28:23 [error]: 400 — Invalid status [PATCH /api/orders/5d9e233f-e9f1-459d-b23b-7435ea255d5a/status]
+2026-04-10 09:28:24 [error]: 400 — Invalid status [PATCH /api/orders/5d9e233f-e9f1-459d-b23b-7435ea255d5a/status]
+2026-04-10 09:38:35 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 09:38:35 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 09:38:35 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 09:38:36 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/cart]
+2026-04-10 09:38:36 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/wishlist]
+2026-04-10 09:42:46 [error]: 404 — Can't find /api/payments/cod on this server! [POST /api/payments/cod]
+2026-04-10 09:42:52 [error]: 404 — Can't find /api/payments/cod on this server! [POST /api/payments/cod]
+2026-04-10 09:49:09 [error]: 401 — You are not logged in! Please log in to get access. [POST /api/payments/cod]
+2026-04-10 09:55:00 [error]: 404 — Can't find /api/payments/cod on this server! [POST /api/payments/cod]
+2026-04-10 09:55:20 [error]: 404 — Can't find /api/payments/cod on this server! [POST /api/payments/cod]
+2026-04-10 09:55:29 [error]: 404 — Can't find /api/payments/cod on this server! [POST /api/payments/cod]
+2026-04-10 09:57:50 [info]: ✅ Database connection successful
+2026-04-10 09:57:50 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 09:58:00 [info]: ✅ Database connection successful
+2026-04-10 09:58:00 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 09:58:35 [error]: 401 — You are not logged in! Please log in to get access. [POST /api/payments/cod]
+2026-04-10 09:59:10 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 09:59:10 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 09:59:10 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 10:07:49 [error]: 500 — jwt expired [GET /api/reports/dashboard-stats]
+2026-04-10 10:07:49 [error]: 500 — jwt expired [GET /api/reports/sales-report]
+2026-04-10 10:07:49 [error]: 500 — jwt expired [GET /api/reports/dashboard-stats]
+2026-04-10 10:07:49 [error]: 500 — jwt expired [GET /api/reports/sales-report]
+2026-04-10 10:07:49 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 10:07:49 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 10:07:49 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 10:16:55 [error]: 500 — jwt expired [POST /api/users/cart]
+2026-04-10 10:30:17 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 10:30:17 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 10:30:18 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 10:32:20 [info]: ✅ Database connection successful
+2026-04-10 10:32:20 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 10:32:34 [info]: ✅ Database connection successful
+2026-04-10 10:32:34 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 10:32:45 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 10:32:45 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 10:32:45 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 10:32:45 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 10:32:46 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/cart]
+2026-04-10 10:32:46 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/wishlist]
+2026-04-10 10:32:46 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/wishlist]
+2026-04-10 10:32:46 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/cart]
+2026-04-10 10:43:22 [info]: ✅ Database connection successful
+2026-04-10 10:43:22 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 10:44:35 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 10:50:15 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 10:58:22 [info]: ✅ Database connection successful
+2026-04-10 10:58:22 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 10:58:40 [error]: 400 — Not enough stock available [POST /api/users/cart]
+2026-04-10 11:00:34 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:00:34 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:00:59 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:00:59 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:01:12 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:01:12 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:01:21 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/export-pdf]
+2026-04-10 11:02:13 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:02:13 [error]: 500 — 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERROR: operator does not exist: text = uuid
+HINT: No operator matches the given name and argument types. You might need to add explicit type casts.` [GET /api/users/admins?page=1&limit=12]
+2026-04-10 11:02:57 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/users/admins?page=1]
+2026-04-10 11:03:32 [info]: ✅ Database connection successful
+2026-04-10 11:03:32 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:03:32 [info]: ✅ Database connection successful
+2026-04-10 11:06:24 [error]: 500 — jwt expired [GET /api/products/admin/my?page=1&limit=10]
+2026-04-10 11:06:24 [error]: 500 — jwt expired [GET /api/products/admin/my?page=1&limit=10]
+2026-04-10 11:06:24 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 11:14:47 [error]: 413 — request entity too large [POST /api/products]
+2026-04-10 11:14:57 [error]: 413 — request entity too large [POST /api/products]
+2026-04-10 11:15:32 [error]: 413 — request entity too large [POST /api/products]
+2026-04-10 11:15:49 [error]: 413 — request entity too large [POST /api/products]
+2026-04-10 11:17:36 [error]: 500 — jwt expired [POST /api/users/wishlist]
+2026-04-10 11:18:57 [info]: ✅ Database connection successful
+2026-04-10 11:20:58 [info]: ✅ Database connection successful
+2026-04-10 11:20:58 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:22:33 [error]: 500 — jwt expired [POST /api/products]
+2026-04-10 11:24:31 [error]: 500 — jwt expired [GET /api/reports/dashboard-stats]
+2026-04-10 11:24:31 [error]: 500 — jwt expired [GET /api/reports/sales-report]
+2026-04-10 11:24:31 [error]: 500 — jwt expired [GET /api/reports/dashboard-stats]
+2026-04-10 11:24:31 [error]: 500 — jwt expired [GET /api/reports/sales-report]
+2026-04-10 11:24:31 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 11:24:31 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 11:24:31 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 11:31:01 [error]: 401 — You are not logged in! Please log in to get access. [POST /api/products]
+2026-04-10 11:31:29 [info]: ✅ Database connection successful
+2026-04-10 11:31:29 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:31:29 [info]: ✅ Database connection successful
+2026-04-10 11:31:29 [info]: ✅ Database connection successful
+2026-04-10 11:38:44 [info]: ✅ Database connection successful
+2026-04-10 11:38:44 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:38:44 [info]: ✅ Database connection successful
+2026-04-10 11:38:44 [info]: ✅ Database connection successful
+2026-04-10 11:38:57 [info]: ✅ Database connection successful
+2026-04-10 11:38:57 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:38:57 [info]: ✅ Database connection successful
+2026-04-10 11:38:57 [info]: ✅ Database connection successful
+2026-04-10 11:39:13 [info]: ✅ Database connection successful
+2026-04-10 11:39:13 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:39:13 [info]: ✅ Database connection successful
+2026-04-10 11:39:13 [info]: ✅ Database connection successful
+2026-04-10 11:39:26 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 11:39:26 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 11:39:26 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 11:39:26 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 11:39:26 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 11:39:26 [error]: 500 — 
+Invalid `prisma.refreshToken.delete()` invocation in
+/home/tejasbargujepatil/Desktop/TechDrill-Ecom/server/controllers/auth.controller.js:128:35
+
+  125 }
+  126 
+  127 // Rotate: delete old, issue new
+→ 128 await prisma.refreshToken.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. [POST /api/auth/refresh]
+2026-04-10 11:39:26 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 11:39:27 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 11:39:27 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 11:39:27 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 11:39:27 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 11:39:27 [error]: 500 — jwt expired [GET /api/users/wishlist]
+2026-04-10 11:39:27 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 11:39:27 [error]: 500 — jwt expired [GET /api/users/cart]
+2026-04-10 11:39:28 [error]: 500 — jwt expired [GET /api/users/profile]
+2026-04-10 11:39:28 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 11:39:28 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 11:39:28 [error]: 401 — Invalid or expired refresh token. Please log in again. [POST /api/auth/refresh]
+2026-04-10 11:39:28 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/orders/my-orders?limit=30]
+2026-04-10 11:39:28 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/orders/my-orders?limit=30]
+2026-04-10 11:41:36 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 11:46:39 [error]: 403 — You do not have permission to perform this action [GET /api/products/19bd355f-6740-42fc-b534-d86e2707e942/reviews]
+2026-04-10 11:46:58 [info]: ✅ Database connection successful
+2026-04-10 11:46:58 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:46:58 [info]: ✅ Database connection successful
+2026-04-10 11:46:58 [info]: ✅ Database connection successful
+2026-04-10 11:46:59 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/products/test-id/reviews]
+2026-04-10 11:47:16 [info]: ✅ Database connection successful
+2026-04-10 11:47:16 [info]: ✅ Server running on port 5000 in development mode
+2026-04-10 11:47:17 [info]: ✅ Database connection successful
+2026-04-10 11:47:17 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/dashboard-stats]
+2026-04-10 11:47:17 [info]: ✅ Database connection successful
+2026-04-10 11:47:17 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/sales-report]
+2026-04-10 11:47:17 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/sales-report]
+2026-04-10 11:47:17 [error]: 401 — You are not logged in! Please log in to get access. [GET /api/reports/dashboard-stats]
+2026-04-10 11:48:41 [error]: 400 — An account with this email already exists [POST /api/auth/register]
+2026-04-10 11:48:48 [error]: 400 — An account with this email already exists [POST /api/auth/register]
+2026-04-10 11:56:28 [error]: 403 — Your account has been blocked by the admin. [GET /api/users/profile]
+2026-04-10 11:56:28 [error]: 403 — Your account has been blocked by the admin. [GET /api/users/profile]
+2026-04-10 11:56:36 [error]: 401 — Incorrect password [POST /api/auth/login]
+2026-04-10 11:58:58 [error]: UNCAUGHT EXCEPTION! 💥 Shutting down...
